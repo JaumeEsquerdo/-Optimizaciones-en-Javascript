@@ -1,0 +1,16 @@
+body{}
+
+.grid{
+    width: 90%;
+    max-width: 20em;
+    background-color: antiquewhite;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.grid img{
+    background-color: aquamarine;
+    max-width: 100px;
+}
